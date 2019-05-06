@@ -20,7 +20,7 @@ for i in fileJson:
             cv.rectangle(src, (int(bbox[0]), int(bbox[1])), (int(bbox[0]+bbox[2]), int(bbox[1]+bbox[3])), (0, 255,255),3)
 
     else:
-        break
+        continue
         #cv.rectangle(src, (91, 95), (270, 51), (0, 255,0),1)
 
 #cv.rectangle(src, (91, 95), (270, 51), (0, 255,0),1)
